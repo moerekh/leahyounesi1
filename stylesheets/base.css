@@ -405,3 +405,6 @@
 .page_credits table thead td:nth-child(3){ width: 188px; }
 .page_credits table thead td:nth-child(3){ width: 100px; }
 
+div#projectContent p:first-child {
+	margin-bottom: 0px;
+}

@@ -38,10 +38,13 @@
 				newimgelem.src = newimgref;
 				newimgelem.setAttribute('alt', featuredvids[vid].gsx$artist.$t + featuredvids[vid].gsx$projecttitle.$t);
 
-				let newp1 = newvidcontainer.appendChild(document.createElement("p"));
+				let panchor = newvidcontainer.appendChild(document.createElement("a"));
+				panchor.href = newvidurl;
+
+				let newp1 = panchor.appendChild(document.createElement("p"));
 				newp1.textContent = featuredvids[vid].gsx$artist.$t + " -";
-				let newp2 = newvidcontainer.appendChild(document.createElement("p"));
-				newp2.textContent = featuredvids[vid].gsx$projecttitle.$t;
+				let newp2 = panchor.appendChild(document.createElement("p"));
+				newp2.textContent = '"' + featuredvids[vid].gsx$projecttitle.$t + '"';
 				/** .append('<div class="four column video"><a href="' + featuredvids[vid].gsx$vidlink.$t + '" rel="shadowbox;width=800;height=450"><div><img src="https://www.leahyounesi.com/images/' + featuredvids[vid].gsx$picthumbnail.$t + '" alt="' + featuredvids[vid].gsx$artist.$t + featuredvids[vid].gsx$projecttitle.$t + '" /></div></a><p><a href="' + featuredvids[vid].gsx$vidlink.$t + '" rel="shadowbox;width=800;height=450">' + featuredvids[vid].gsx$artist.$t + ' -<br />"' + featuredvids[vid].gsx$projecttitle.$t + '"</a></p></div>');
 				 */
 			}
