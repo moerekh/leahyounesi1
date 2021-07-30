@@ -102,7 +102,6 @@ $(function(){
 
             // requested job title order
             let job_sort_order = [
-                "CONTENT MANAGER",
                 "EXECUTIVE PRODUCER",
                 "PRODUCER",
                 "DIRECTOR'S REP",
@@ -110,7 +109,8 @@ $(function(){
                 "PRODUCTION MANAGER",
                 "PRODUCTION COORDINATOR",
                 "ASSISTANT TO PRODUCER",
-                "ASSISTANT TO DIRECTOR"
+                "ASSISTANT TO DIRECTOR",
+                "CONTENT MANAGER"
             ];
 
             
