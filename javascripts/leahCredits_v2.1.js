@@ -102,6 +102,7 @@ $(function(){
 
             // requested job title order
             let job_sort_order = [
+                "CONTENT MANAGER",
                 "EXECUTIVE PRODUCER",
                 "PRODUCER",
                 "DIRECTOR'S REP",
