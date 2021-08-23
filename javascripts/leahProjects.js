@@ -1,54 +1,53 @@
-(
-	fetch(my_spreadsheet_url)
-	.then(response => {
-		return response.json()
+(() => {
+	const my_headers = new Headers({
+		"Content-Type": "application/json"
+	});
+	const sheet_url = spreadsheet_info();
+
+    fetch(sheet_url, {
+        method: 'GET',
+        headers: my_headers
+    })
+    .then((result) => {
+        return result.json();
+    })
+	.then((data) => {
+		const projects_div = document.getElementById("projectContent");
+		let featuredvids = data.values.filter((d) => {
+			if (Number(d[9]) > 0 && Number(d[9]) < 7) {
+				return true;
+			}
+			return false;
+		})
+		.sort((d1 , d2) => {
+			return d1 - d2;
+		})
+		.map((vid) => {
+			let newvidurl = vid[6];
+			let newimgref = 'https://www.leahyounesi.com/images/' + vid[7];
+
+			let newvidcontainer = projects_div.appendChild(document.createElement("div"));
+			newvidcontainer.setAttribute('class', 'four column video');
+
+			let newanchor = newvidcontainer.appendChild(document.createElement("a"));
+			newanchor.href = newvidurl;
+			newanchor.setAttribute('rel', "shadowbox;width=800;height=450");
+
+			let newframe = newanchor.appendChild(document.createElement('div'));
+
+			let newimgelem = newframe.appendChild(document.createElement("img"));
+			newimgelem.src = newimgref;
+			newimgelem.setAttribute('alt', vid[1] + vid[2]);
+
+			let panchor = newvidcontainer.appendChild(document.createElement("a"));
+			panchor.href = newvidurl;
+
+			let newp1 = panchor.appendChild(document.createElement("p"));
+			newp1.textContent = vid[1] + " -";
+			let newp2 = panchor.appendChild(document.createElement("p"));
+			newp2.textContent = '"' + vid[2] + '"';
+		});
+		
 	})
-	.then(
-		(json) => {
-			let featuredvids = [];
-			let entry = json.feed.entry;
-			const projects_div = document.getElementById("projectContent");
-
-			// Sort all objects into their own arrays based on myPosition.
-			for ( let item in entry ) {
-				if (entry[item].gsx$featuredhome.$t != 0) {
-					featuredvids.push(entry[item]);
-				}
-			}
-			//order of projects to display
-			featuredvids.sort(function (a, b) {
-				return a.gsx$featuredhome.$t - b.gsx$featuredhome.$t;
-			});
-
-			//post movies
-			for ( let vid in featuredvids ) {
-				let newvidurl = featuredvids[vid].gsx$vidlink.$t;
-				let newimgref = 'https://www.leahyounesi.com/images/' + featuredvids[vid].gsx$picthumbnail.$t;
-
-				let newvidcontainer = projects_div.appendChild(document.createElement("div"));
-				newvidcontainer.setAttribute('class', 'four column video');
-
-				let newanchor = newvidcontainer.appendChild(document.createElement("a"));
-				newanchor.href = newvidurl;
-				newanchor.setAttribute('rel', "shadowbox;width=800;height=450");
-
-				let newframe = newanchor.appendChild(document.createElement('div'));
-
-				let newimgelem = newframe.appendChild(document.createElement("img"));
-				newimgelem.src = newimgref;
-				newimgelem.setAttribute('alt', featuredvids[vid].gsx$artist.$t + featuredvids[vid].gsx$projecttitle.$t);
-
-				let panchor = newvidcontainer.appendChild(document.createElement("a"));
-				panchor.href = newvidurl;
-
-				let newp1 = panchor.appendChild(document.createElement("p"));
-				newp1.textContent = featuredvids[vid].gsx$artist.$t + " -";
-				let newp2 = panchor.appendChild(document.createElement("p"));
-				newp2.textContent = '"' + featuredvids[vid].gsx$projecttitle.$t + '"';
-				/** .append('<div class="four column video"><a href="' + featuredvids[vid].gsx$vidlink.$t + '" rel="shadowbox;width=800;height=450"><div><img src="https://www.leahyounesi.com/images/' + featuredvids[vid].gsx$picthumbnail.$t + '" alt="' + featuredvids[vid].gsx$artist.$t + featuredvids[vid].gsx$projecttitle.$t + '" /></div></a><p><a href="' + featuredvids[vid].gsx$vidlink.$t + '" rel="shadowbox;width=800;height=450">' + featuredvids[vid].gsx$artist.$t + ' -<br />"' + featuredvids[vid].gsx$projecttitle.$t + '"</a></p></div>');
-				 */
-			}
-		}
-	)
 	.catch((err) => {console.log(err)})
-)
+})();
