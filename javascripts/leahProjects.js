@@ -6,10 +6,11 @@
 
     fetch(sheet_url, {
         method: 'GET',
+		mode: 'cors',
         headers: my_headers
     })
-    .then((result) => {
-        return result.json();
+    .then((response) => {
+        return response.json();
     })
 	.then((data) => {
 		const projects_div = document.getElementById("projectContent");
@@ -20,7 +21,7 @@
 			return false;
 		})
 		.sort((d1 , d2) => {
-			return d1 - d2;
+			return d1[9] - d2[9];
 		})
 		.map((vid) => {
 			let newvidurl = vid[6];

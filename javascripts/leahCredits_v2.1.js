@@ -9,27 +9,25 @@ class MyJob {
     }
 }
 
-const my_headers = new Headers({
-    "Content-Type": "application/json"
-});
-
 (() => {
+    const my_headers = new Headers({
+        "Content-Type": "application/json"
+    });
     const sheet_url = spreadsheet_info();
 
     fetch(sheet_url, {
         method: 'GET',
-        headers: my_headers
+        mode: 'cors',
+        headers: my_headers    
     })
-    .then((result) => {
-        return result.json();
+    .then((response) => {
+        return response.json();
     })
     .then((data) => {
         let job;
-        let this_job;
         let tableID;
         let tableName;
         const table_section = document.getElementById('credits_tables');
-        let my_jobs = [];
 
         function create_table_cell (el, content, current_row) {
             let tc = document.createElement(el);
