@@ -15,6 +15,31 @@ class MyJob {
     });
     const sheet_url = spreadsheet_info();
 
+    function create_table_cell (el, content, current_row) {
+        let tc = document.createElement(el);
+        let c = document.createTextNode(content);
+        tc.appendChild(c);
+        current_row.appendChild(tc);
+    }
+
+    function create_job_table(newTableId, jobTitle){
+        const table_section = document.getElementById('credits_tables');
+        const table_block = document.createElement('div');
+        const currentTable = document.createElement('table');
+        const thead = currentTable.createTHead();
+        const row = thead.insertRow();
+        const thead_names = [jobTitle, "Production Company", "Director", "Year"];
+        
+        table_block.setAttribute('class', 'row');
+        currentTable.setAttribute('id', newTableId);
+
+        thead_names.map((h_name) => create_table_cell('th', h_name, row));
+
+        thead.appendChild(row);
+        table_block.appendChild(currentTable);
+        table_section.appendChild(table_block);
+    }
+
     fetch(sheet_url, {
         method: 'GET',
         mode: 'cors',
@@ -24,110 +49,45 @@ class MyJob {
         return response.json();
     })
     .then((data) => {
-        let job;
-        let tableID;
-        let tableName;
-        const table_section = document.getElementById('credits_tables');
-
-        function create_table_cell (el, content, current_row) {
-            let tc = document.createElement(el);
-            let c = document.createTextNode(content);
-            tc.appendChild(c);
-            current_row.appendChild(tc);
-        }
-        
-        function create_jobs_table (jobs){
-            jobs.map((job) => {
-                let this_table;
-                let thead;
-                let row;
-                let project_name;
-        
-                tableName = job.my_title.toLowerCase();
-                tableID = tableName.replace(/\W/g, '');
-        
-                if(!document.getElementById(tableID)) {
-                    table_block = document.createElement('div');
-                    table_block.setAttribute('class', 'row');
-        
-                    this_table = document.createElement('table');
-                    thead = this_table.createTHead();
-                    row = thead.insertRow();
-        
-                    this_table.setAttribute('id', tableID);
-        
-                    create_table_cell('th', job.my_title, row);
-                    create_table_cell('th', "Production Company", row);
-                    create_table_cell('th', "Director", row);
-                    create_table_cell('th', "Year", row);
-        
-                    thead.appendChild(row);
-                    table_block.appendChild(this_table);
-                    table_section.appendChild(table_block);
-                }
-        
-                this_table = document.getElementById(tableID);
-                row = this_table.insertRow();
-        
-                project_name = job.artist + ' - ' + '"' + job.project_title + '"';
-        
-                create_table_cell('td', project_name, row);
-                create_table_cell('td', job.producer, row);
-                create_table_cell('td', job.director, row);
-                create_table_cell('td', job.year, row);
-        
-                this_table.appendChild(row);
-            });
-        };
-
-        // requested job title order
-        let job_title_sort_order = [
-            "EXECUTIVE PRODUCER",
-            "PRODUCER",
-            "DIRECTOR'S REP",
-            "PRODUCTION SUPERVISOR",
-            "PRODUCTION MANAGER",
-            "PRODUCTION COORDINATOR",
-            "ASSISTANT TO PRODUCER",
-            "ASSISTANT TO DIRECTOR",
-            "CONTENT MANAGER"
-        ];
-
-        let titles = job_title_sort_order.map((t) => {
-            return t.toLowerCase();
-        });
-
-        let job_entry = data.values.map((d) => {
-            // Sort all objects into their own arrays.
-            let myposition = d[0],
-                myartist = d[1],
-                myprojecttitle = d[2],
-                myproducer = d[3],
-                mydirector = d[4],
-                myyear = d[5];
-
-            job = new MyJob(
-                myposition, 
-                myartist, 
-                myprojecttitle, 
-                myproducer, 
-                mydirector, 
-                myyear
-            );
-
-           return job;
-        })
-        .filter(job => {
-            if (Number(job.year) > 0) {
+        data.values.map((d) => new MyJob(d[0], d[1], d[2], d[3], d[4], d[5]))
+        .filter(j => {
+            if (Number(j.year) > 0) {
                 return true;
             }
             return false;
         })
-        .sort((je1, je2) => {
-            return titles.indexOf(je1.my_title.toLowerCase()) - titles.indexOf(je2.my_title.toLowerCase()) || je2.year - je1.year
-        });
+        .sort((j1, j2) => {
+            // requested job title order
+            const titles = [
+                "EXECUTIVE PRODUCER",
+                "PRODUCER",
+                "DIRECTOR'S REP",
+                "PRODUCTION SUPERVISOR",
+                "PRODUCTION MANAGER",
+                "PRODUCTION COORDINATOR",
+                "ASSISTANT TO PRODUCER",
+                "ASSISTANT TO DIRECTOR",
+                "CONTENT MANAGER"
+            ]
+            .map((t) => t.toLowerCase());
 
-        create_jobs_table(job_entry);
+            return titles.indexOf(j1.my_title.toLowerCase()) - titles.indexOf(j2.my_title.toLowerCase()) || j2.year - j1.year
+        }).map((j) => {
+            const row_entry = [`${j.artist} - "${j.project_title}"`, j.producer, j.director, j.year];
+            const tableName = j.my_title.toLowerCase();
+            const tableID = tableName.replace(/\W/g, '');
+    
+            if(!document.getElementById(tableID)) {
+                create_job_table(tableID, j.my_title);
+            }
+    
+            const currentTable = document.getElementById(tableID);
+            const row = currentTable.insertRow();
+    
+            row_entry.map((entry) => create_table_cell('td', entry, row));
+    
+            currentTable.appendChild(row);
+        });
     })
     .catch((err) => {
         console.log(err);
