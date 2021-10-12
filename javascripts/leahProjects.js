@@ -1,8 +1,8 @@
 (() => {
 	const my_headers = new Headers({
-		"Content-Type": "application/json"
+		"Content-Type": "text/plain"
 	});
-	const sheet_url = spreadsheet_info();
+	const sheet_url = "https://leah-credits-api-ihj4a.ondigitalocean.app/api/credits";
 
     fetch(sheet_url, {
         method: 'GET',
