@@ -57,6 +57,7 @@ class MyJob {
         .sort((j1, j2) => {
             // requested job title order
             const titles = [
+                "CONTENT MANAGER/PRODUCER",
                 "EXECUTIVE PRODUCER",
                 "PRODUCER",
                 "DIRECTOR'S REP",
@@ -64,8 +65,7 @@ class MyJob {
                 "PRODUCTION MANAGER",
                 "PRODUCTION COORDINATOR",
                 "ASSISTANT TO PRODUCER",
-                "ASSISTANT TO DIRECTOR",
-                "CONTENT MANAGER"
+                "ASSISTANT TO DIRECTOR"
             ]
             .map((t) => t.toLowerCase());
 
