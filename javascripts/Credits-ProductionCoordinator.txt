@@ -1,0 +1,151 @@
+myPosition	artist	projectTitle	producer	director	year	vidLink	picThumbnail	credits	featuredHome
+Content Producer	A$AP Rocky 	Rolling Loud Festival, Thailand	Green Wall Designs	Treatment Studios, Lou Levin, Playlab Inc	2024			TRUE	0
+Content Producer	Busta Rhymes "Dragon Season" Medley	MTV EMAs	Green Wall Designs	Paramount & Tawbox	2024			TRUE	0
+Content Producer	Le Sserafim "Crazy" 	MTV EMAs	Green Wall Designs	Paramount & Tawbox	2024			TRUE	0
+Content Producer	DragonForce - Medley Performance	Supercell	Green Wall Designs	Supercell & Jannica Routamo	2024			TRUE	0
+Content Producer	SuperFest 2024 - Brawl Stars	Supercell	Green Wall Designs	Supercell & Jannica Routamo	2024			TRUE	0
+Content Producer	SuperFest 2024 - Clash Royale	Supercell	Green Wall Designs	Supercell & Jannica Routamo	2024			TRUE	0
+Content Producer	SuperFest 2024 - Clash of Clans	Supercell	Green Wall Designs	Supercell & Jannica Routamo	2024			TRUE	0
+Content Producer	Cyndi Lauper "Iko"	Farewell Tour	Green Wall Designs	Brian Burke Creative	2024			TRUE	0
+Content Producer	Eminem "Houdini' & Jelly Roll "Save Me"	MTV Video Music Awards Performance	Green Wall Designs	Visual Nosie Creative	2024			TRUE	0
+Content Producer	Benson Boone "Beautiful Things"	MTV Video Music Awards Performance	Green Wall Designs	Visual Nosie Creative	2024			TRUE	0
+Content Producer	Benjamin Ingrosso "Look Who's Laughing Now", "Kite", "Honey Boy"	Eurovision Song Contest	Green Wall Designs	Dennis Brochner	2024			TRUE	0
+Content Producer	ESC24	Eurovision Song Contest	Green Wall Designs	Sveriges Television (SVT)	2024			TRUE	0
+Content Producer	Lainey Wilson	People's Choice Awards	Green Wall Designs	Harriet Cuddeford & Den of Thieves	2024			TRUE	0
+Content Producer	A$AP Rocky	Le Gala des Pièces Jaune	Green Wall Designs	Ed Walker & Kyle Goldberg	2024			TRUE	0
+Content Manager 	Disney+	Dancing With The Stars Cold Open Disney 100 (Season 32 Episode 4)	Silent Partners Studio	One Day Productions	2023			TRUE	0
+Content Manager 	Disney+	Dancing With The Stars Cold Open Premier (Season 32 Episode 1)	Silent Partners Studio	One Day Productions	2023			TRUE	0
+Content Manager 	Karol G	Mañana Será Bonito Stadium Tour	Silent Partners Studio	The Squared Division	2023			TRUE	0
+Content Manager 	Harry Styles	Love On Tour Stadium Tour 	Silent Partners Studio	Molly Hawkins & Silent House	2023			TRUE	0
+Content Manager 	P!NK	I Heart Radio Awards "Icon Award" Medley Performance with Kelly Clarkson, Pat Benatar & Neil Giraldo 	Silent Partners Studio	Baz Halpin & Silent House	2023			TRUE	0
+Content Manager 	P!NK	I Heart Radio Awards "Trustfall" Performance	Silent Partners Studio	Baz Halpin & Silent House	2023			TRUE	0
+Content Manager 	Lil Nas X	Lollapalooza Chile "Batty Boy" & "Industry Baby"	Silent Partners Studio	The Squared Division	2023			TRUE	0
+Content Manager 	Harry Styles	65th Annual Grammy Awards Performance 	Silent Partners Studio	Molly Hawkins	2023			TRUE	0
+Content Manager 	The Kid Laroi	All Star Game AT&T Performance	Silent Partners Studio	Daniel Humphreys 	2023			TRUE	0
+Content Manager 	David Guetta & Bebe Rexha	MTV EMA's "I'm Good" Performance	Silent Partners Studio	The Squared Division	2022			TRUE	0
+Content Manager 	David Guetta & Bebe Rexha	AMA's "I'm Good" Performance	Silent Partners Studio	The Squared Division	2022			TRUE	0
+Content Manager 	The Kid Laroi	NBA TNT American Express Road Show	Silent Partners Studio	Stu Dingley 	2022			TRUE	0
+Content Manager 	Eminem & Snoop Dogg	MTV Video Music Awards Metaverse Performance	Silent Partners Studio	Paul Caslin, The Den of Thieves & Visual Noise	2022			TRUE	0
+Content Manager 	RIOT Games	Behind the Scenes of Star Guardians with Porter Robinson	Silent Partners Studio	Reuel Kim	2022			TRUE	0
+Content Manager 	Google	I/O Conference Mija Performance 	Silent Partners Studio	Done & Dusted	2022			TRUE	0
+Content Manager 	Harry Styles	European and American Love On Tour	Silent Partners Studio	Molly Hawkins & Silent House	2022			TRUE	0
+Content Manager 	Harry Styles	Harry's Home Coachella Performance 2022	Silent Partners Studio	Molly Hawkins & Silent House	2022			TRUE	0
+Content Manager 	Tik Tok	Camila Cabello "Familia" Livestream	Silent Partners Studio	Charlotte Rutherford 	2022			TRUE	0
+Content Manager 	Disney +	Pentatonix: Around the World for the Holidays	Silent Partners Studio	Sam Wrench & Done & Dusted	2022			TRUE	0
+Content Manager 	RIOT Games	Valorrant Champions Tournament	Silent Partners Studio	JB Blot	2022			TRUE	0
+Content Manager 	MTV	Movie & TV Awards: Greatest of All Time	Silent Partners Studio	Paul Caslin & Den of Thieves	2020			TRUE	0
+Content Manager 	SIA	Hey Boy	Silent Partners Studio	Jason Baum	2020			TRUE	0
+Content Manager 	Katy Perry	Alibaba Singles Day	Silent Partners Studio	The Squared Division	2020			TRUE	0
+Content Manager 	Billie Eilish 	Where Do We Go? Livestream	Silent Partners Studio	Tarik Mikou	2020			TRUE	0
+Content Manager 	MTV	MTV: Video Music Awards	Silent Partners Studio	Paul Caslin, The Den of Thieves & Visual Noise	2021			TRUE	0
+Content Manager 	Jonas Brothers	Remember This Tour	Silent Partners Studio	Chase Foster	2021			TRUE	0
+Content Manager 	Leon Bridges	"Steam" Good Morning America	Silent Partners Studio	Saul Levitz	2021			TRUE	0
+Content Manager 	Leon Bridges	"Why Don't You Touch Me" Good Morning America	Silent Partners Studio	Saul Levitz	2021			TRUE	0
+Content Manager 	Leon Bridges	"Steam" Late Night Starring Jimmy Fallon	Silent Partners Studio	Saul Levitz	2021			TRUE	0
+Content Manager 	Kid Cudi	Amazon Prime Day	Silent Partners Studio	Sam Wrench & Done & Dusted	2021			TRUE	0
+Content Manager 	Cardi B	WAP: Live at the Grammys	Silent Partners Studio	The Squared Division	2021			TRUE	0
+Content Manager 	Cardi B	UP: Live at the Grammys	Silent Partners Studio	The Squared Division	2021			TRUE	0
+Content Manager 	Silk Sonic	Leave the Door Open: Live at the Grammys	Silent Partners Studio	Cory Fitzgerald	2021			TRUE	0
+Content Manager 	Taylor Swift	Live At The Grammys	Silent Partners Studio	Baz Halpin & Silent House	2021			TRUE	0
+Content Manager 	Julia Michaels	Little Did I Know	Silent Partners Studio	Ini Hanfmann	2021			TRUE	0
+Content Manager 	Julia Michaels	All Your Exes	Silent Partners Studio	Ini Hanfmann	2021			TRUE	0
+Content Manager 	Katy Perry	Lazada Super Party	Silent Partners Studio	The Squared Division	2021			TRUE	0
+Production Coordinator	Chromeo	The Juice	The Director's Bureau	David Wilson	2017			TRUE	0
+Production Coordinator	Facebook	Thanksgiving	The Director's Bureau	Gia Coppola	2015			TRUE	0
+Production Coordinator	Carly Rae Jepsen	Your Type	The Director's Bureau	Gia Coppola	2015			TRUE	0
+Production Coordinator	Disclosure ft. Lorde	Magnets	The Director's Bureau	Ryan Hope	2015			TRUE	0
+Production Coordinator	She & Him	Stay Awhile	The Director's Bureau	CANADA	2014	https://www.youtube.com/embed/Ni75mYuwvlg	sheandhim.jpeg	TRUE	0
+Production Coordinator	Arcade Fire	We Exist	The Director's Bureau	David Wilson	2014	https://www.youtube.com/watch?v=hRXc_-c_9Xc	arcadefire1.jpg	TRUE	6
+Production Coordinator	Paolo Nutini	Scream	Paradoxal	Nez	2014		paolo-nutini.jpg	TRUE	0
+Production Coordinator	Mapei	Don't Wait	Prettybird	Dori Oskowitz	2013		mapei.jpg	TRUE	0
+Production Coordinator	Whitesea	They Don't Know	Factory Films	Steven Johnson	2013		theyDontKnow.jpg	TRUE	0
+Production Coordinator	Tamar Braxton	All the Way Home	Factory Films	Steven Johnson	2013			TRUE	0
+Production Coordinator	Five Knives	Vive Le Roi	Doomsday Entertainment	Ace Norton	2013			TRUE	0
+Production Supervisor	Charli XCX 	Famous	Prettybird	Eric Wareheim	2015			TRUE	0
+Production Supervisor	DJ Snake ft. AlunaGeorge	You Know You Like It	Prettybird	Dori Oskowitz	2014	https://www.youtube.com/watch?v=aBn7bjy9c4U	youknowyoulikeit.jpeg	TRUE	5
+Production Manager	LANY	Heart Won't Let Me	Scissor Films	Isaac Ravishankara	2020			TRUE	0
+Production Manager	Free People	Movement	Scissor Films	Ryan Heffington	2020			TRUE	0
+Production Manager	Emmy the Great	Swimming Pool	Memory	Sebastian Pardo	2014			TRUE	0
+Production Manager	SSESNE 	The Beckoning ft. Chloe Sevigny	Somesuch and Co	Maryam L'Ange	2014			TRUE	0
+Production Manager	Actress	ft. Ana Coto	Memory	Sebastian Pardo	2014			TRUE	0
+Production Manager	Banks	Drowning	Ramble West Productions	Mike Piscitelli	2014		banks.jpg	TRUE	0
+Production Manager	Wankelmut	My Head Is A Jungle	Doomsday Entertainment	Elliott Sellers	2014			TRUE	0
+Production Manager	PBS PSA	As You Were	Manmade Films	Trevin Matcek	2014			TRUE	0
+Production Manager	Ellie Goulding	Goodness Gracious	Partizan	Kinga Burza	2013	https://www.youtube.com/embed/ekPBOVgGRSA	goodnessGrac.jpg	TRUE	0
+Production Manager	Bored Nothing	Let Down	Somesuch and Co	Abteen Bagheri	2013		let-down-thumb.png	TRUE	0
+Production Manager	Carly Rae Jepsen	Tonight I'm Getting Over You	Paradoxal	Nathalie Canguilhem	2013			TRUE	0
+Production Manager	Blood Orange	I'm Sorry We Lied	Ewing McGregor	Abteen Bagheri	2012			TRUE	0
+Production Manager	Delta Spirit	California	Ewing McGregor	Abteen Bagheri	2012			TRUE	0
+Production Manager	A Box of Scraps	Kool King	ABOS	Kiarash Reghabi	2012			TRUE	0
+Production Manager	Mux Mool	Cash For Gold	Partizan	Bo Mirosseni	2012			TRUE	0
+Assistant to Producer	Kendrick Lamar	Humble	Radical Media	Dave Meyers	2017			TRUE	0
+Assistant to Producer	Ariana Grande and John Legend	Beauty and the Beast "Tale as Old as Time"	Radical Media	Dave Meyers	2017			TRUE	0
+Assistant to Producer	Pharrell Williams	Happy	Iconoclast	We Are From LA	2013	https://www.youtube.com/embed/y6Sxv-sUYtM	pharrellhappy.jpg	TRUE	0
+Assistant to Producer	Solange	Lovers in the Parking Lot	Iconoclast	Emily Kai Bock	2013			TRUE	0
+Assistant to Producer	Muse	Supremacy	D&R Productions	Terry Hall	2013			TRUE	0
+Assistant to Director	Katy Perry	Plumpify	Serial Pictures	Jonas Åkerlund	2015				
+Assistant to Director	Lady Gaga & Tony Bennet	Barnes and Noble: You Never Know	Serial Pictures	Jonas Åkerlund	2015			TRUE	0
+Assistant to Director	Katy Perry	H&M: Holiday Campaign	Serial Pictures	Jonas Åkerlund	2015			TRUE	0
+Assistant to Director	Maddona	Bitch I'm Madonna	Serial Pictures	Jonas Åkerlund	2015			TRUE	0
+Assistant to Director	Maroon 5	Feelings	Serial Pictures	Jonas Åkerlund	2015			TRUE	0
+Producer	Lil Nas X	Lollapalooza Chile "Batty Boy" & "Industry Baby"	Silent Partners Studio	The Squared Division	2023			TRUE	0
+Producer	Eminem & Snoop Dogg	MTV Video Music Awards Metaverse Performance	Silent Partners Studio	Paul Caslin, Den of Thieves	2022			TRUE	0
+Producer	Kygo x Tina Turner	What's Love Got To Do With It	Virgin Soil Pictures	Sarah Bahbah	2020	https://www.youtube.com/watch?v=TNYGLMQxZ64	kygoxtina.png	TRUE	1
+Producer	Travis Scott	JACKBOYS	Operator Media	Harmony Korine 	2019			TRUE	0
+Producer	Steve Lacy	Playground	Operator Media	Alexis Zabe	2019			TRUE	0
+Producer	Gracie Abrams	Mean It	Operator Media	Matty Peacock	2019			TRUE	0
+Producer	James Blake and Metro Boomin	Mile High	Operator Media	Nabil	2019			TRUE	0
+Producer	Active Child	All Eyes On You	Reprobates	Isaac Ravishankara	2019			TRUE	0
+Producer	Meg Myers 	Running Up That Hill	Reprobates	Jo Roy	2019			TRUE	0
+Producer	Steady Holiday	Mothers	Reprobates	Isaac Ravishankara	2018			TRUE	0
+Producer	Pitchfork	Daft Punk Cover Story	Ramble West Productions	Nabil	2013	https://pitchfork.com/features/cover-story/reader/daft-punk/	daft-punk-small.jpg	TRUE	2
+Producer	Cloud Carrier	Close	Ewing McGregor	Chris Black	2012			TRUE	0
+Director's Rep	Active Child	All Eyes On You	Reprobates	Isaac Ravishankara	2019			TRUE	0
+Director's Rep	Joywave	Obsession	Cadence	Dimitri Basil	2019			TRUE	0
+Director's Rep	Major Lazer ft. Skip Marley	Can't Take It From Me	Cardel	Irrum	2019			TRUE	0
+Director's Rep	Wallows	Remember When	Little Ugly	Stephen Tyler	2019			TRUE	0
+Director's Rep	Vicente García	Ahí Ahí	Reprobates	Alan Del Rio Ortiz	2019			TRUE	0
+Director's Rep	Elle Fanning	Wildflowers	Reprobates	Alan Del Rio Ortiz	2019			TRUE	0
+Director's Rep	Missio 	I See You	Ben Fee	Reprobates	2019			TRUE	0
+Director's Rep	Brynn Elliott	Internet You	Little Ugly	Morgan Gruer	2019			TRUE	0
+Director's Rep	Ice Cube ft Too Short	Ain't Got No Haters	Reprobates	Alan Del Rio Ortiz	2019			TRUE	0
+Director's Rep	Carly Rae Jepsen	Now That I Found You	Little Ugly	Carlos Lopez Estrada & Nelson De Castro	2019			TRUE	0
+Director's Rep	Lucky Daye	Karma	Little Ugly	Carlos Lopez Estrada & BASA	2019				0
+Director's Rep	Danny Ocean	Swing	Little Ugly	Clara Aranovich	2019			TRUE	0
+Director's Rep	Static & Ben El ft. J Balvin	Tudo Bom	Little Ugly	Carlos Lopez Estrada & Jeff Desom	2019			TRUE	0
+Director's Rep	Jai Wolf	Lose My Mind	Diktator	Andrew Donoho	2019			TRUE	
+Director's Rep	Mallrat	Nobody's Home	Pomp & Clout	Ariel Fisher 	2019			TRUE	0
+Director's Rep	LANY	Thick And Thin	Reprobates	Isaac Ravishankara	2019			TRUE	0
+Director's Rep	The Chainsmokers ft. Kelsea Ballerini	This Feeling	Reprobates	Similar But Different	2018			TRUE	0
+Director's Rep	Khalid	Better	Diktator	Andrew Donoho	2018			TRUE	0
+Director's Rep	Kap G 	A Day Without A Mexican	Snow Beach	RJ Sanchez	2018			TRUE	0
+Director's Rep	Kevin Gates 	Great Man	Godless	Pasqual Gutierrez & Anthony Pham	2018			TRUE	0
+Director's Rep	Billie Eilish 	When The Party's Over	Little Ugly	Carlos Lopez Estrada	2018			TRUE	0
+Director's Rep	Zara Larsson	Ruin My Life	Agile Films	Charlotte Rutherford	2018			TRUE	0
+Director's Rep	LANY	Malibu Nights	Scissor Films	Isaac Ravishankara	2018			TRUE	0
+Director's Rep	Meg Myers 	Jealous Sea	Little Ugly	Clara Aranovich	2018			TRUE	0
+Director's Rep	Juice WRLD 	Black & White	Snow Beach	RJ Sanchez	2018			TRUE	0
+Director's Rep	Miya Folick 	Stop Talking	Little Ugly	Ariel Fisher & Sarah Prinz	2018			TRUE	0
+Director's Rep	Maya B	Selenas	Little Ugly	Alan Del Rio Ortiz	2018			TRUE	0
+Director's Rep	Maggie Rogers	Give A Little	Little Ugly	Alan Del Rio Ortiz	2018			TRUE	0
+Director's Rep	Steady Holiday	Mothers	Reprobates	Isaac Ravishankara	2018			TRUE	0
+Director's Rep	NBA Youngboy	Astronaut Kid	Little Ugly	Carlos Lopez Estrada & Alan Del Rio Ortiz	2018			TRUE	0
+Director's Rep	twenty one pilots	Nico And The Niners	Diktator	Andrew Donoho	2018			TRUE	0
+Director's Rep	Slothrust	Double Down	Destroy All Entertainment	Josh Forbes	2018			TRUE	0
+Director's Rep	twenty one pilots	Jumpsuit	Diktator	Andrew Donoho	2018			TRUE	0
+Director's Rep	Death Cab For Cutie	Gold Rush	London Alley	Alex Southam	2018			TRUE	0
+Director's Rep	Houndmouth 	This Party	Baby Panther	Kris Merc	2018			TRUE	0
+Director's Rep	Janelle Monáe	Dirty Computer	Diktator	Andrew Donoho	2018			TRUE	0
+Director's Rep	Father John Misty	Mr. Tillman	Little Ugly	Jeff Desom & Carlos Lopez Estrada	2018			TRUE	0
+Executive Producer	Travis Scott	JACKBOYS	Operator Media	Harmony Korine 	2019	https://www.youtube.com/watch?v=Zgg7BgaFG1s	travisscottjpg.jpg	TRUE	4
+Executive Producer	Dua Lipa	Don't Start Now	Operator Media	Nabil	2019	https://www.youtube.com/watch?v=oygrmJFKYZY	dualipa.jpg	TRUE	3
+Executive Producer	Lana Del Rey	Norman Fucking Rockwell	Operator Media	Chuck Grant	2019			TRUE	0
+Executive Producer	Spencer Lee Band	Best Sex	Operator Media	Eli Russell Linnetz	2019			TRUE	0
+Executive Producer	Gracie Abrams	Mean It	Operator Media	Matty Peacock	2019			TRUE	0
+Executive Producer	James Blake and Metro Boomin	Mile High	Operator Media	Nabil	2019			TRUE	0
+Executive Producer	Gia Woods	Ego	Operator Media	Jenna Marsh	2019			TRUE	0
+Executive Producer	Gia Woods	Naive	Operator Media	Jenna Marsh	2019			TRUE	0
+Executive Producer	Steve Lacy	Playground	Operator Media	Alexis Zabe	2019			TRUE	0
+Executive Producer	Tokimonsta ft. Earthgang	Fried for the Night	Operator Media	Romain Laurent	2019			TRUE	0
+Executive Producer	Active Child	All Eyes On You	Reprobates	Isaac Ravishankara	2019			TRUE	0
+Executive Producer	Steady Holiday	Mothers	Reprobates	Isaac Ravishankara	2018			TRUE	0

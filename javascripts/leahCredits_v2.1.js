@@ -13,7 +13,7 @@ class MyJob {
     const my_headers = new Headers({
         "Content-Type": "text/plain"
     });
-    const sheet_url = "https://leah-credits-api-ihj4a.ondigitalocean.app/api/credits";
+    const sheet_url = "./javascripts/Credits-ProductionCoordinator.txt";
 
     function create_table_cell (el, content, current_row) {
         let tc = document.createElement(el);
@@ -42,12 +42,17 @@ class MyJob {
 
     fetch(sheet_url, {
         method: 'GET',
-        mode: 'cors',
-        headers: my_headers    
+		mode: 'cors',
+        headers: my_headers
     })
-    .then(response => response.json())
+    .then((response) => {
+        return response.text();
+    })
     .then((data) => {
-        data.values.map((d) => new MyJob(d[0], d[1], d[2], d[3], d[4], d[5]))
+        let lines = data.split('\n').map((ln) => {
+			return ln.split('\t').map((it) => {return it.replaceAll('\r', '')});
+		});
+        lines.map((d) => new MyJob(d[0], d[1], d[2], d[3], d[4], d[5]))
         .filter(j => {
             if (Number(j.year) > 0) {
                 return true;

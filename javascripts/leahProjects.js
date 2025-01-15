@@ -2,7 +2,7 @@
 	const my_headers = new Headers({
 		"Content-Type": "text/plain"
 	});
-	const sheet_url = "https://leah-credits-api-ihj4a.ondigitalocean.app/api/credits";
+	const sheet_url = "./javascripts/Credits-ProductionCoordinator.txt";
 
     fetch(sheet_url, {
         method: 'GET',
@@ -10,11 +10,14 @@
         headers: my_headers
     })
     .then((response) => {
-        return response.json();
+        return response.text();
     })
 	.then((data) => {
+		let lines = data.split('\n').map((ln) => {
+			return ln.split('\t').map((it) => {return it.replaceAll('\r', '')});
+		});
 		const projects_div = document.getElementById("projectContent");
-		let featuredvids = data.values.filter((d) => {
+		let featuredvids = lines.filter((d) => {
 			if (Number(d[9]) > 0 && Number(d[9]) < 7) {
 				return true;
 			}
